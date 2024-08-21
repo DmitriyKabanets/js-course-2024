@@ -41,34 +41,3 @@ Fork – це копія репозиторію, яка дозволяє вам 
 [4. Умови та цикли](https://www.youtube.com/watch?v=q8DX0yrijmQ&t=196s&ab_channel=ITVDN) <br>
 [5. Функції](https://www.youtube.com/watch?v=F2m-A9RzsgU&t=1806s) <br>
 
-
-
-
-# Цикли для перебору масивів масивів
-
-# В змінній key будуть ключі (властивості)
-for (const key in array){
-	console.log(key);
-	console.log(array[key]);
-}
-
-# В змінній key будуть значення
-for (const key of array){
-	console.log(key);
-}
-
-# додавання значення в кінець масиву
-array.push('New data');
-
-# Максимально можлива цифра
-let x = Number.MAX_VALUE;
-
-# Мінімальне значення в аргументів
-let min = Math.min(10, 44, 72, 3);
-# Мінімальне, максимальне значення масиву
-let min = Math.min(...array);
-let max = Math.max(...array);
-
-# ...aray - додавання значень до масиву 
-let value = [10, 4, 69, ...array]
-
